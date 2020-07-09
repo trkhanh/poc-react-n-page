@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server  --mode development --devtool inline-source-map --hot",
     "build": "webpack --mode production",
-    "start": "node www.js"
+    "start": "node server.js"
   },
   "author": "khanhtran",
   "license": "MIT",
