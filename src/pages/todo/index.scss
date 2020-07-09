@@ -1,0 +1,58 @@
+@import "src/common.scss";
+.column{
+  padding:0.75rem;
+}
+.todo{
+  padding:40px 0;
+  .todo-list{
+    margin-top: 10px;
+    border-radius: 4px;
+    padding:20px;
+    .todo-item{
+      padding:10px 0;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .todo-item:nth-last-child(1){
+      border-bottom: none;
+    }
+  }
+  .todo-checkbox{
+    width: 18px;
+    height: 18px;
+    border-radius: 16px;
+    border:1px solid #999;
+    display: block;
+    position: relative;
+  }
+  .toto-text{
+    padding-left:8px;
+  }
+  .delete-todo:hover{
+    opacity: 0.8;
+  }
+}
+.list-shadow{
+  box-shadow: 0 0 3px #e8e8e8;
+}
+.todo-true{
+  text-decoration: line-through;
+  font-style: italic;
+  color: #bbb;
+}
+.todo-checked::after{
+  content: " ";
+  width:12px;
+  height: 12px;
+  background:rgb(35,200,178);
+  position:absolute;
+  left:2px;
+  top:2px;
+  border-radius:12px;
+
+}
+.filter{
+  margin-top:10px;
+  li{
+    margin-left:10px;
+  }
+}
