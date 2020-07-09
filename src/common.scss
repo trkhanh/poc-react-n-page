@@ -1,0 +1,32 @@
+@import "../node_modules/bulma/bulma.sass";
+.columns{
+  margin-left:0;
+  margin-top:0;
+  margin-right: 0;
+}
+.mt20{
+  margin-top:20px;
+}
+.flex{
+  display: flex;
+  display: inline-flex;
+  display: -webkit-flex;
+}
+.flex1{
+  -webkit-flex:1;
+  flex:1;
+}
+.v-center{
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+.main{
+  width: 80%;
+  margin:auto;
+}
+.footer{
+  background:#fff;
+ 
+}
