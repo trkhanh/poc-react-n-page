@@ -11,7 +11,7 @@ export default class Nav extends Component {
 				<div className="columns column nav is-8">
 					<div className="nav-item"><a href="/">Home</a></div>
 					<div className="nav-item"><a href="/todo">Todo</a></div>
-					<div className="nav-item"><a href="https://github.com/khanhtran/webpack-react-multi-page/">Github</a></div>
+					<div className="nav-item"><a href="https://github.com/trkhanh/react-n-page/">Github</a></div>
 				</div>
 				<div className="column is-2"></div>
 			</div>
