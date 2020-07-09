@@ -25,13 +25,13 @@ export default class App extends Component {
 						<li>🔗 Flexible extend</li>
 					</ul>
 					<h1 className="title mt20">Quick Start</h1>
-					<p className="mt20">install rppx-cli in global and create your new project ,use npm start the project</p>
+					<p className="mt20">install kao-cli in global and create your new project ,use npm start the project</p>
 					<pre>
-						$ npm install rppx-cli -g
+						$ npm install kao-cli -g
 					</pre>
 					<p className="mt20">create your multi page</p>
 					<pre>
-						$ rppx init my-react
+						$ kao init my-react
 					</pre>
 					<p className="mt20">	install dependencies </p>
 					<pre>
