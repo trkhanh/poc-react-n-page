@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "bulma": "^0.7.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "opn": "^5.4.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
